@@ -1,0 +1,153 @@
+body {
+    background-color: rgba(222, 184, 135, 0.897);
+    background-size: cover;
+    height: 160vh;
+    background-repeat: no-repeat;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:darkmagenta;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: black;
+    color:white ;
+  }
+
+   .social-media img {
+       height: 40px;
+       width: 50px;
+       padding: 0 10px 0 10px;
+   }
+
+   .social-media {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 90px;
+    
+    }
+
+    .profile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .education-skills {
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid white; */
+        padding: 40px 0 40px 0;
+        color: white;
+        text-align: center;
+       
+    }
+    
+    /*footer*/
+    .footer  {
+      display:flex;
+      justify-content: space-between;
+      flex-direction: row;
+      background: darkmagenta;
+      color: black;
+    }
+
+    .school-pictures {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .take-time-to-read {
+      text-align: center;
+      /* border: 1px solid white; */
+  }
+
+  .take-time-to-read {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+
+
+  
+  
+  p {
+      font-size: 20px;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+    }
+    
+  /*Hide the images by default*/
+  .mySlides {
+      display: none;
+    }
+  
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /*footer*/
+    .footer  {
+      display:flex;
+      justify-content: space-between;
+      flex-direction: row;
+      background: darkmagenta;
+      color: black;
+    }
+    .rotateimg180{
+      -webkit-transform:rotate(180deg);
+      -ms-transform:rotate(180deg);
+      -o-transform:rotate(180deg);
+      transform:rotate(180deg);
+    }
+   

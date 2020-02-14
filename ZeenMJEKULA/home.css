@@ -1,0 +1,95 @@
+body {
+    background-image: url('ZINTLEMJ.JPEG');
+    position: relative;
+    height: 80vh;
+  }
+  h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+  }
+  
+  
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:darkmagenta;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: black;
+    color:white ;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+  }
+
+img {
+    position: relative;
+    top: 15%;
+    left: 5%;
+    height: 40;
+    width: 30%;
+
+}
+
+/*STYLING THE PICTURE-PARAGRAPH DIV.*/
+.picture-paragraph {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  
+}
+
+
+
+ /* Styling Meet Zintle Mjekula*/
+
+    .h1{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      color: white;
+      font-size:80px;
+      text-align: left;
+      background-color: white;
+    }
+    /* Styling paragraph*/
+
+    .p{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      color: white;
+    }
+  
+     /*footer*/
+    .footer  {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: darkmagenta;
+    color: black;
+  }
